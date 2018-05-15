@@ -19,6 +19,10 @@ class Owner
     @@all << self
   end
 
+  def self.count
+    @@count += 1
+  end
+
   def self.reset_all
     @@count += 1
   end
