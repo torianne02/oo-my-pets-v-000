@@ -31,16 +31,12 @@ class Owner
 
   def buy_cat(name)
     cat = Cat.new(name)
-    @pets.each do |species|
-      species[1] << cat
-    end
+    @pets[:cats] << cat
   end
 
   def buy_dog(name)
     dog = Dog.new(name)
-    @pets.each do |species|
-      species[2] << dog
-    end
+    @pets[:dogs] << dog
   end
 
   # def walk_dogs
