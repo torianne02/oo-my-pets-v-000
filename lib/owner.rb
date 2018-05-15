@@ -40,7 +40,7 @@ class Owner
   end
 
   def walk_dogs
-    @pets.Dog.mood = "happy"
+    @pets[:dogs]mood = "happy"
   end
 
   def play_with_cats
