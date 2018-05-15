@@ -10,14 +10,14 @@ class Owner
     @species = "human"
   end
 
-  def say_species
-    species = @species
-    puts "I am a #{species}."
-  end
+  # def say_species
+  #   species = @species
+  #   puts "I am a #{species}."
+  # end
 
-  def self.all
-    @@all << self
-  end
+  # def self.all
+  #   @@all << self
+  # end
 
   def buy_fish(name)
     fish = Fish.new(name)
