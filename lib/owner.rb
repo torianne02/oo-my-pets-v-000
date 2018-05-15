@@ -50,7 +50,8 @@ class Owner
   end
 
   def sell_pets
-
+    @pets.each {|species, pets| pet.each {|pet| pet.mood = "nervous"}}
+    @pets.initialize
   end
 
   # def list_pets
