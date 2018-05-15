@@ -39,4 +39,8 @@ class Owner
       species[2] << dog
     end
   end
+
+  def walk_dogs
+    Dogs.mood = "happy"
+  end
 end
