@@ -15,10 +15,14 @@ class Owner
   #   puts "I am a #{species}."
   # end
 
-  # def self.all
-  #   @@all << self
-  # end
-  #
+  def self.all
+    @@all << self
+  end
+
+  def self.owner_count
+    @@owner_count += 1
+  end
+
   # def buy_fish(name)
   #   fish = Fish.new(name)
   #   @pets.each do |species|
@@ -41,15 +45,15 @@ class Owner
   # end
 
   def walk_dogs
-    @pets[2].mood = "happy"
+    @pets.Dog.mood = "happy"
   end
 
   def play_with_cats
-    @pets[1].mood = "happy"
+    @pets.Cat.mood = "happy"
   end
 
   def feed_fish
-    @pets[0].mood = "happy"
+    @pets.Fish.mood = "happy"
   end
 
   def list_pets
