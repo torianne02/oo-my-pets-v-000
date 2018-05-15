@@ -51,7 +51,7 @@ class Owner
 
   def sell_pets
     @pets.each {|species, pets| pets.each {|pet| pet.mood = "nervous"}}
-    @pets.clear = {fishes: [], cats: [], dogs: []}
+    @pets.clear #= {fishes: [], cats: [], dogs: []}
   end
 
   # def list_pets
