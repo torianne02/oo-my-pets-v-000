@@ -24,7 +24,7 @@ class Owner
   end
 
   def self.reset_all
-    @@count.clear
+    @@count
   end
 
   # def buy_fish(name)
