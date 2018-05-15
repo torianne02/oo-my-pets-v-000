@@ -11,4 +11,11 @@ class Owner
       specie_array[1] << cat
     end
   end
+
+  def buy_fish(name)
+    fish = Fish.new(name)
+    @pets.each do |specie_array|
+      specie_array[0] << fish
+    end
+  end
 end
