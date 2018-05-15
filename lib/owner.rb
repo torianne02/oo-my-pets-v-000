@@ -44,17 +44,17 @@ class Owner
   #   end
   # end
 
-  def walk_dogs
-    @pets.Dog.mood = "happy"
-  end
-
-  def play_with_cats
-    @pets.Cat.mood = "happy"
-  end
-
-  def feed_fish
-    @pets.Fish.mood = "happy"
-  end
+  # def walk_dogs
+  #   @pets.Dog.mood = "happy"
+  # end
+  # 
+  # def play_with_cats
+  #   @pets.Cat.mood = "happy"
+  # end
+  # 
+  # def feed_fish
+  #   @pets.Fish.mood = "happy"
+  # end
 
   # def list_pets
   #   @pets.each do |species|
