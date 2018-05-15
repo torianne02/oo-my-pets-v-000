@@ -2,11 +2,14 @@ class Owner
   attr_accessor :pets, :name
   attr_reader :species
   @@all = []
+  @@owner_count = 0
 
   def initialize(pets)
     @name = name
     @pets = {fishes: [], cats: [], dogs: []}
     @species = "human"
+    @@all << self
+    @@owner_count += 1
   end
 
   def self.all
