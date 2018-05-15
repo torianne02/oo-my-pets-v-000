@@ -24,7 +24,6 @@ class Owner
   end
 
   def self.reset_all
-    @@count
     @@count.each {|owner| remove_method(owner)}
   end
 
