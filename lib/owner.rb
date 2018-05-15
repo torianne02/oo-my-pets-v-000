@@ -18,13 +18,13 @@ class Owner
   # def self.all
   #   @@all << self
   # end
-
-  def buy_fish(name)
-    fish = Fish.new(name)
-    @pets.each do |species|
-      species[0] << fish
-    end
-  end
+  # 
+  # def buy_fish(name)
+  #   fish = Fish.new(name)
+  #   @pets.each do |species|
+  #     species[0] << fish
+  #   end
+  # end
 
   def buy_cat(name)
     cat = Cat.new(name)
@@ -32,13 +32,13 @@ class Owner
       species[1] << cat
     end
   end
-
-  def buy_dog(name)
-    dog = Dog.new(name)
-    @pets.each do |species|
-      species[2] << dog
-    end
-  end
+  #
+  # def buy_dog(name)
+  #   dog = Dog.new(name)
+  #   @pets.each do |species|
+  #     species[2] << dog
+  #   end
+  # end
 
   def walk_dogs
     Dog.mood = "happy"
@@ -55,6 +55,6 @@ class Owner
   def list_pets
     @pets.each do |species|
       species.each {|pet_name| puts pet_name(name)}
-    end 
+    end
   end
 end
