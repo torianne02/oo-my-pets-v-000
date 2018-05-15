@@ -9,11 +9,6 @@ class Owner
     @all << self
   end
 
-  # def say_species
-  #   species = @species
-  #   puts "I am a #{species}."
-  # end
-
   def self.all
     @@all
   end
@@ -34,7 +29,7 @@ class Owner
   #   fish = Fish.new(name)
   #   @pets[:fishes] << fish
   # end
-  # 
+  #
   # def buy_cat(name)
   #   cat = Cat.new(name)
   #   @pets.each do |species|
@@ -61,9 +56,9 @@ class Owner
     @pets.Fish.mood = "happy"
   end
 
-  def list_pets
-    @pets.each do |species|
-      species.each {|pet_name| puts pet_name(name)}
-    end
-  end
+  # def list_pets
+  #   @pets.each do |species|
+  #     species.each {|pet_name| puts pet_name(name)}
+  #   end
+  # end
 end
