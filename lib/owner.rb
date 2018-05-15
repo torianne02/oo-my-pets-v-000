@@ -19,7 +19,7 @@ class Owner
     end
   end
 
-  def buy_cat(name)
+  def buy_dog(name)
     dog = Dog.new(name)
     @pets.each do |specie_array|
       specie_array[2] << dog
