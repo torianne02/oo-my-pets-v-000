@@ -8,8 +8,6 @@ class Owner
     @name = name
     @pets = {fishes: [], cats: [], dogs: []}
     @species = "human"
-    @@all << self
-    @@owner_count += 1
   end
 
   def self.all
