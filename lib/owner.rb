@@ -23,6 +23,9 @@ class Owner
     @@owner_count += 1
   end
 
+  def self.reset_all
+  end
+
   # def buy_fish(name)
   #   fish = Fish.new(name)
   #   @pets.each do |species|
