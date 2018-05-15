@@ -41,15 +41,15 @@ class Owner
   # end
 
   def walk_dogs
-    @pets.Dog.mood = "happy"
+    @pets[2].mood = "happy"
   end
 
   def play_with_cats
-    @pets.Cat.mood = "happy"
+    @pets[1].mood = "happy"
   end
 
   def feed_fish
-    @pets.Fish.mood = "happy"
+    @pets[0].mood = "happy"
   end
 
   def list_pets
