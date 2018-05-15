@@ -18,7 +18,7 @@ class Owner
   # def self.all
   #   @@all << self
   # end
-  #
+  # 
   # def buy_fish(name)
   #   fish = Fish.new(name)
   #   @pets.each do |species|
@@ -41,15 +41,15 @@ class Owner
   # end
 
   def walk_dogs
-    self.Dog.mood = "happy"
+    @pets.Dog.mood = "happy"
   end
 
   def play_with_cats
-    self.Cat.mood = "happy"
+    @pets.Cat.mood = "happy"
   end
 
   def feed_fish
-    self.Fish.mood = "happy"
+    @pets.Fish.mood = "happy"
   end
 
   def list_pets
