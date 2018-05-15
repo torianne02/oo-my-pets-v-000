@@ -27,12 +27,10 @@ class Owner
     @@count
   end
 
-  # def buy_fish(name)
-  #   fish = Fish.new(name)
-  #   @pets.each do |species|
-  #     species[0] << fish
-  #   end
-  # end
+  def buy_fish(name)
+    fish = Fish.new(name)
+    @pets(:fish) => fish
+  end
 
   def buy_cat(name)
     cat = Cat.new(name)
