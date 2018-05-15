@@ -12,7 +12,6 @@ class Owner
 
   def self.all
     @@all << self
-    self
   end
 
   def buy_fish(name)
