@@ -49,6 +49,10 @@ class Owner
     @pets[:fishes].each {|fish| fish.mood = "happy"}
   end
 
+  def sell_pets 
+
+  end
+
   # def list_pets
   #   @pets.each do |species|
   #     species.each {|pet_name| puts pet_name(name)}
