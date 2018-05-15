@@ -19,11 +19,8 @@ class Owner
     @@all << self
   end
 
-  def self.owner_count
-    @@owner_count += 1
-  end
-
   def self.reset_all
+    @@count += 1
   end
 
   # def buy_fish(name)
