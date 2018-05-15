@@ -18,7 +18,7 @@ class Owner
   # def self.all
   #   @@all << self
   # end
-  # 
+  #
   # def buy_fish(name)
   #   fish = Fish.new(name)
   #   @pets.each do |species|
