@@ -47,11 +47,11 @@ class Owner
   # def walk_dogs
   #   @pets.Dog.mood = "happy"
   # end
-  # 
+  #
   # def play_with_cats
   #   @pets.Cat.mood = "happy"
   # end
-  # 
+  #
   # def feed_fish
   #   @pets.Fish.mood = "happy"
   # end
