@@ -51,4 +51,10 @@ class Owner
   def feed_fish
     Fish.mood = "happy"
   end
+
+  def list_pets
+    @pets.each do |species|
+      species.each {|pet_name| puts pet_name(name)}
+    end 
+  end
 end
